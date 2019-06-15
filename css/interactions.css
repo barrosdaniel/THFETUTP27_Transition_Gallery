@@ -3,8 +3,17 @@
 ==================================== */
 
 .button {
-	color: #fff;
-	background: #4a89ca;
+  color: #fff;
+  background: #4a89ca;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background: #d36a62;
+}
+
+.button:active {
+  background: #a33830;
 }
 
 /* ================================= 
