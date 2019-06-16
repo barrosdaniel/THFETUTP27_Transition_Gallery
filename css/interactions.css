@@ -25,7 +25,9 @@
 /* ================================= 
   Image Transforms & Transitions
 ==================================== */
-
+.content {
+  transform: skewY(15deg);
+}
 /* -- Row 1 --------- */
 img {
   transition: transform, 0.4s;
@@ -33,7 +35,7 @@ img {
 }
 
 img:hover {
-  transform: rotate(-5deg);
+  transform: skewY(10deg);
 }
 
 /* -- Row 2 --------- */
