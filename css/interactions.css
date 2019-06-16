@@ -3,11 +3,11 @@
 ==================================== */
 
 .photo-overlay {
-	opacity: 0;
-	transition: opacity .5s;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 .photo-overlay:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
 /* ================================= 
@@ -15,11 +15,11 @@
 ==================================== */
 
 .button {
-	transition: background .3s, color .3s;
+  transition: background 0.3s, color 0.3s;
 }
 .button:hover {
-	color: #fff;
-	background: #4a89ca;
+  color: #fff;
+  background: #4a89ca;
 }
 
 /* ================================= 
@@ -27,23 +27,20 @@
 ==================================== */
 
 /* -- Row 1 --------- */
+img {
+  transition: transform, 0.4s;
+  transition-timing-function: ease-in-out;
+}
 
-
+img:hover {
+  transform: rotate(-5deg);
+}
 
 /* -- Row 2 --------- */
 
-
-
 /* -- Row 3 --------- */
 
-
-
 /* -- Logo ---------- */
-
-
-
-
-
-
-
-
+.logo:hover {
+  transform: rotate(-20deg);
+}
