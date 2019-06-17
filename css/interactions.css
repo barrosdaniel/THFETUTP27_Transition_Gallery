@@ -14,7 +14,7 @@
 ==================================== */
 .content {
   perspective: 700px;
-  perspective-origin: bottom left;
+  perspective-origin: 50% 50%;
 }
 
 .photo {
@@ -23,7 +23,7 @@
 }
 
 .photo:hover {
-  transform: rotate3d(1, 0, 0, 150deg);
+  transform: rotateY(180deg);
 }
 
 .side-a,
