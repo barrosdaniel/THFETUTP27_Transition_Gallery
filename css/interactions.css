@@ -17,5 +17,23 @@
 }
 
 .photo {
-  transform: rotateX(-25deg);
+  transition: transform 1s cubic-bezier(0.55, -0.62, 0.27, 1.2);
+  transform-style: preserve-3d;
 }
+
+.photo:hover {
+  transform: rotateY(-180deg);
+}
+
+.side-a,
+.side-b {
+  backface-visibility: hidden;
+}
+
+.side-b {
+  transform: rotateY(180deg);
+}
+
+/* .side-b {
+  z-index: 100;
+} */
